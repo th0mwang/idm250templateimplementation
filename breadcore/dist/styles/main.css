@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    color: black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+li{
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 7vh;
+    filter: blur(0.15rem);
+    transition: all 0.5s;
+}
+li:hover{
+    filter: blur(0);
+}
+body{
+    background-image: url("/wp-content/themes/breadcore/images/Liquid-texture-graphic-design-Graphics-22742330-1.jpg");
+    overflow: hidden;
+    background-color: black;
+}
+h1{
+    font-family: 'Futura Std', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+    ul{
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        filter: blur(0);
+    }
+    li{
+        color: white;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 4vh;
+        filter: blur(0);
+    }
+}
